@@ -254,7 +254,7 @@ body{
  	padding-top: 4%;
  	padding-left: 5%;
   font-family: "MyWebFont";
-	color:#000;
+	color:#fff;
 	font-size: 250%;
   line-height: 150%;
  	}
@@ -498,7 +498,7 @@ header {
   position: relative;
   font-family: "MyWebFont2";
   font-size: 100%;
-  background-color: #212121;
+  background-color: #212529;
   min-height: 83vh;
   padding: 0 2rem 8rem;
   color: #f6f6f6;
@@ -632,7 +632,7 @@ height: 100%;
    .footertxt{
   position: relative;
   font-family: "MyWebFont1";
-  color:#ffffff9c;
+  color:#fffc;
   font-weight: 50%;
   size:  80%;
   padding-left: 5%;
@@ -646,10 +646,10 @@ height: 100%;
   position: relative;
   font-family: "MyWebFont2";
   font-size: 100%;
-  background: #f8f8f9;
+  background: #212529;
   min-height: 40vh;
   padding: 0 2rem 8rem;
-  color: #000;
+  color: #fff;
   display: flex;
   flex-direction: column;
 }
@@ -693,7 +693,7 @@ header section h2 {
     padding-left: 5%;
     padding-top: 10%;
     font-family: "MyWebFont";
-    color: #000;
+    color: #fff;
     font-size: 200%;
 }
  .txt6{
@@ -701,7 +701,7 @@ header section h2 {
   padding-top: 6%;
   padding-left: 5%;
   font-family: "MyWebFont";
-  color:#000;
+  color:#fff;
   font-size: 200%;
   }
     .txt8{
@@ -718,7 +718,7 @@ header section h2 {
 .hover-underline-animation {
   display: inline-block;
   position: relative;
-  color: #fd0054;
+  color: #fa5252;
 }
 
 .hover-underline-animation:after {
@@ -729,7 +729,7 @@ header section h2 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #fd0054;
+  background-color: #fa5252;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
