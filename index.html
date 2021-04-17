@@ -32,6 +32,12 @@
   </head>
  <body style= "background-color: #263238" data-aos-easing="ease" data-aos-duration="1200" data-aos-delay="0" data-new-gr-c-s-check-loaded="14.1002.0" data-gr-ext-installed="" class="">
 
+  <div class="header">
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+</div>
+
     <div class="hamburgler-menu">
       <ul class="hamburgler-menu-list">
         <li>
@@ -49,6 +55,11 @@
 
     <!-- Header -->
     <header>
+
+     
+
+
+
         <div id="hamburgler" class="hamburgler-icon-wrapper">
         <span class="hamburgler-menu"></span>
       </div>
@@ -338,6 +349,21 @@ src="../code.jquery.com/jquery-3.2.1.min.js"
 integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 crossorigin="anonymous"></script>
     <script type="text/javascript" src="../rawgit.com/michalsnik/aos/master/dist/aos.js" ></script>
+
+
+    <script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+
+
     <script>
       $(function () {
         AOS.init({duration: 1200})
