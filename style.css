@@ -56,11 +56,11 @@ table {
 }
 @font-face {
   font-family:'MyWebFont';
-  src:url('fonts/CircularStd.ttf'); 
+  src:url('fonts/Manrope3 Bold 700.otf'); 
 }
 @font-face{
   font-family:'MyWebFont1';
-  src:url('fonts/CircularStd-Book.otf'); 
+  src:url('fonts/Manrope3 Bold 700.otf'); 
 }
 
 *  {
@@ -116,7 +116,7 @@ body{
 
 ::selection {
     color: white;
-    background: #000;
+    background: white;
 }
 
  .button {
@@ -210,7 +210,7 @@ body{
  	padding-left:5%;
  	padding-top: 8%;
 	font-family: "MyWebFont";
-	color:#000;
+	color:#f6f6f6;
 	font-size: 250%;
  	}
 
@@ -348,7 +348,7 @@ li {
 
 li a {
     display: block;
-    color: black;
+    color: #f6f6f6;
     text-align: center;
     text-decoration: none;
 }
@@ -387,7 +387,7 @@ section {
   transition: all 0.2s;
 }
 .sample:hover {
-   box-shadow: 0 15px 15px rgba(0,0,0,.08);
+   box-shadow: 0 15px 15px rgba(31,31,31,.00);
     transform: translate(0,-10px);
     transition-delay: 0s !important;
 }
@@ -397,10 +397,10 @@ section {
 
   }    .sample{
   width: calc(40.33% - -2rem);
-  background: #ddd;
+  background: #1f1f1f;
   border-radius:4px;
   padding-bottom:  calc(48.33% - 2rem);
-  box-shadow: 0 2px 2px rgba(0,0,0,0.06), 0 0 2px 1px rgba(0,0,0,0.03);
+  box-shadow: 0 2px 2px rgba(31,31,31,0.06), 0 0 2px 1px rgba(31,31,31,0.03);
   margin: 1rem;
   box-sizing: border-box;
   position: relative;
@@ -411,10 +411,10 @@ section {
   @media only screen and (min-width: 1000px) and (max-width: 3000px){
     .sample{
   width: calc(33.33% - 2rem);
-  background: #ddd;
+  background: #1f1f1f;
   border-radius:4px;
   padding-bottom:  calc(33.33% - 2rem);
-  box-shadow: 0 2px 2px rgba(0,0,0,0.06), 0 0 2px 1px rgba(0,0,0,0.03);
+  box-shadow: 0 2px 2px rgba(31,31,31,0.06), 0 0 2px 1px rgba(31,31,31,0.03);
   margin: 1rem;
   box-sizing: border-box;
   position: relative;
@@ -498,10 +498,10 @@ header {
   position: relative;
   font-family: "MyWebFont2";
   font-size: 100%;
-  background-color: #f8f8f9;
+  background-color: #212121;
   min-height: 83vh;
   padding: 0 2rem 8rem;
-  color: #000;
+  color: #f6f6f6;
   display: flex;
   flex-direction: column;
 }
